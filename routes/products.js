@@ -22,19 +22,6 @@ router.get('/:id', async (req, res, next) => {
     }
 });
 
-// router.get('/:id', async (req, res, next) => {
-//     try {
-//         const products = await Product.findById(req.params.id);
-//         if (!products) {
-//             const error = new Error('Product not found');
-//             error.status = 404;
-//             throw error;
-//         }
-//         res.json(products);
-//     } catch (err) {
-//         next(err);
-//     }
-// });
 
 router.post('/', async (req, res, next) => {
     try {
@@ -62,15 +49,5 @@ router.delete('/:id', async (req, res, next) => {
         next(err);
     }
 });
-
-// // Error handling middleware //
-// router.use((err, req, res, next) => {
-//     res.status(err.status || 500);
-//     res.json({
-//         error: {
-//             message: err.message,
-//         },
-//     });
-// });
 
 module.exports = router;
