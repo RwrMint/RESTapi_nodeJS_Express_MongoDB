@@ -6,4 +6,4 @@ Create RESTapi with Node.JS - Express - MongoDB
 - put
 - delete
 
-p.s. Mongoose verdion 7.0.1
+p.s. Mongoose version 7.0.1
