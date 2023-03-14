@@ -5,3 +5,5 @@ Create RESTapi with Node.JS - Express - MongoDB
 - post
 - put
 - delete
+
+p.s. Mongoose verdion 7.0.1
